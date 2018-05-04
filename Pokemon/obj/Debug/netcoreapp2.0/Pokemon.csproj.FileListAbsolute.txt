@@ -1,0 +1,11 @@
+C:\Users\Dave\source\repos\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.csprojResolveAssemblyReference.cache
+C:\Users\Dave\source\repos\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Dave\source\repos\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.AssemblyInfoInputs.cache
+C:\Users\Dave\source\repos\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.AssemblyInfo.cs
+C:\Users\Dave\source\repos\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.deps.json
+C:\Users\Dave\source\repos\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.runtimeconfig.json
+C:\Users\Dave\source\repos\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.runtimeconfig.dev.json
+C:\Users\Dave\source\repos\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.dll
+C:\Users\Dave\source\repos\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.pdb
+C:\Users\Dave\source\repos\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.dll
+C:\Users\Dave\source\repos\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.pdb
