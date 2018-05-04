@@ -21,7 +21,28 @@ namespace Pokemon
 
         public int Level { get; set; }
 
-        public int Gesundheit { get; set; }
+        private int gesundheit;
+
+        public int Gesundheit
+        {
+            get { return gesundheit; }
+            set
+            {
+                if (value < 0)
+                {
+                    gesundheit = 0;
+                }
+                else if (value > 1000)
+                {
+                    gesundheit = 0;
+                }
+                else
+                {
+                    gesundheit = value;
+                }
+            }
+        }
+
 
 
 
@@ -31,6 +52,21 @@ namespace Pokemon
             return (Gewicht + Geschwindigkeit) * Level;
         }
 
+        public void EnergieAbziehen(int Schaden)
+        {
+            Gesundheit = Gesundheit - Schaden;
+        }
+
+        public bool Volltreffer()
+        {
+            Random r = new Random();
+            int i = r.Next(1, 6);
+            if (i == 3)
+            {
+                return true;
+            }
+            return false;
+        }
 
     }
 }
