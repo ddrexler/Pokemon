@@ -57,16 +57,5 @@ namespace Pokemon
             Gesundheit = Gesundheit - Schaden;
         }
 
-        public bool Volltreffer()
-        {
-            Random r = new Random();
-            int i = r.Next(1, 6);
-            if (i == 3)
-            {
-                return true;
-            }
-            return false;
-        }
-
     }
 }

@@ -39,7 +39,7 @@ namespace Pokemon
                 Gewicht = 4,
                 Level = 7,
                 Geschwindigkeit = 30,
-                Name = "Glumanda",
+                Name = "Glutexo",
                 Nummer = 4
             };
 
@@ -62,6 +62,8 @@ namespace Pokemon
         {
             Console.WriteLine("Der Kampf beginnt ...");
 
+            Kampflogik logik = new Kampflogik();
+
             while (pkmn1.Gesundheit != 0 && pkmn2.Gesundheit != 0)
             {
                 Thread.Sleep(2000);
@@ -70,7 +72,7 @@ namespace Pokemon
                 Console.WriteLine("Gesundheit von {0}: {1}", pkmn2.Name, pkmn2.Gesundheit);
                 Console.WriteLine("{0} greift mit Tackle an! Schaden: {1}", pkmn1.Name, pkmn1.Tackle());
 
-                if (pkmn1.Volltreffer())
+                if (logik.Volltreffer())
                 {
                     Console.WriteLine("Ein Volltreffer!");
                     pkmn2.EnergieAbziehen(pkmn1.Tackle() * 2);
@@ -82,7 +84,7 @@ namespace Pokemon
 
                 Console.WriteLine("{0} greift mit Tackle an! Schaden: {1}", pkmn2.Name, pkmn2.Tackle());
 
-                if (pkmn1.Volltreffer())
+                if (logik.Volltreffer())
                 {
                     Console.WriteLine("Ein Volltreffer!");
                     pkmn1.EnergieAbziehen(pkmn2.Tackle() * 2);
